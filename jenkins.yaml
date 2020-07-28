@@ -51,7 +51,7 @@ unclassified:
           scm:
             github:
               credentialsId: "cbdays-github-username-pat"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "kiwitoonOrg"
               repository: "pipeline-library"
   hibernationConfiguration:
     activities:
@@ -70,10 +70,10 @@ credentials:
               scope: GLOBAL
               id: cbdays-github-token-secret
               description: "GitHub PAT from JCasC - secret text"
-              secret: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              secret: "{AQAAABAAAAAw24ecnN2CsMJedx2O2JgvraNRzAnro6VUuyTGXB0+i8bLk3oMBP2XrbQKJJS69g+pUoTIOde4R0Ht9+vql/49NA==}"
           - usernamePassword:
               scope: GLOBAL
               id: cbdays-github-username-pat
               description: "GitHub PAT from JCasC - username/password"
-              username: "REPLACE_WITH_YOUR_GITHUB_USERNAME"
-              password: "REPLACE_WITH_JENKINS_ENCODED_PAT"
+              username: "kiwitoon"
+              password: "{AQAAABAAAAAw24ecnN2CsMJedx2O2JgvraNRzAnro6VUuyTGXB0+i8bLk3oMBP2XrbQKJJS69g+pUoTIOde4R0Ht9+vql/49NA==}"
